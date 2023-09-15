@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#0078BE">
+    <div>
+        <header id="screen"></header>
+        <table cellspacing="10" style="background-color: #000000;
+                margin: 0 auto;
+                margin-top: 10px;
+                margin-right: 10px;
+                margin-left: 10px;
+                border-radius: 10px;">
+            <tbody>
+                <tr class="orange">
+                    <td onclick="clearScr()" colspan="2">AC</td>
+                    <td onclick="sendNum('*0.01')">%</td>
+                    <td onclick="sendNum('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="sendNum('7')">7</td>
+                    <td onclick="sendNum('8')">8</td>
+                    <td onclick="sendNum('9')">9</td>
+                    <td onclick="sendNum('*')" class="orange">x</td>
+                </tr>
+                <tr>
+                    <td onclick="sendNum('4')">4</td>
+                    <td onclick="sendNum('5')">5</td>
+                    <td onclick="sendNum('6')">6</td>
+                    <td onclick="sendNum('-')" class="orange">-</td>
+                </tr>
+                <tr>
+                    <td onclick="sendNum('1')">1</td>
+                    <td onclick="sendNum('2')">2</td>
+                    <td onclick="sendNum('3')">3</td>
+                    <td onclick="sendNum('+')" class="orange">+</td>
+                </tr>
+                <tr>
+                    <td onclick="sendNum('0')" colspan="2">0</td>
+                    <td onclick="sendNum('.')">.</td>
+                    <td onclick="equalsTo()" class="orange">=</td>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

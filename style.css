@@ -1,0 +1,48 @@
+div{
+    background-color: #000000;
+    margin: 50px;
+    width: 350px;
+    height: 625px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+header{
+    background-color: #d1e0e0;
+    width: 330px;
+    height: 150px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    vertical-align: sub;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+td{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #f3f3f3;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.orange{
+    color: #ff3300;
+}
+
+td:active{
+    background-color: #e0e0d1;
+    border-radius: 50px;
+}
